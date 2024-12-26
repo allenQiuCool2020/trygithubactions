@@ -19,7 +19,7 @@ jobs:
      - name: Install dependencies
        run: |  # Uses the run key for multi-line commands
           python -m pip install --upgrade pip
-          pip install requirements.txt
+          pip install -r requirements.txt
 
      - name: Run tests
        run: python manage.py test  # Uses the run key
