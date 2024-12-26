@@ -28,5 +28,5 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ build_and_test ]
     steps:
-      -name: echo hello world
-       run: echo "hello world"
+      - name: echo hello world
+        run: echo "hello world"
